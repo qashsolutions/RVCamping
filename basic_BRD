@@ -1,0 +1,7 @@
+this pwa webapp will let a user to sign in with their email, auth with their password.
+next, it will ask for their vehicle #, mileage, and their preferred deductible.
+we will display a sliding scale for the deductible - from $20 to $500.
+this should then generate an insurance quote for this vehicle by calling a 3rd aprty api.
+this api does not exist yet for this demo.
+we will create synthetic data for uuid, password (8 digits hash), vehicle #, VIN, mileage, today's date and a deductible amount.
+the user will then be able to download a pdf version of their insurance quote.
