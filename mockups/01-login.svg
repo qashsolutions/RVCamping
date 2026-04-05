@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a2a"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="375" height="812" fill="url(#bgGrad)"/>
+
+  <!-- Subtle topo pattern -->
+  <g opacity="0.06" stroke="#fff" stroke-width="1" fill="none">
+    <ellipse cx="187" cy="200" rx="160" ry="60"/>
+    <ellipse cx="187" cy="220" rx="140" ry="50"/>
+    <ellipse cx="187" cy="240" rx="120" ry="40"/>
+    <ellipse cx="100" cy="500" rx="130" ry="55"/>
+    <ellipse cx="100" cy="520" rx="110" ry="45"/>
+    <ellipse cx="300" cy="650" rx="100" ry="40"/>
+    <ellipse cx="300" cy="670" rx="80" ry="30"/>
+  </g>
+
+  <!-- Status bar area -->
+  <rect width="375" height="44" fill="rgba(0,0,0,0.15)"/>
+  <text x="187" y="30" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="14" font-weight="600">9:41</text>
+
+  <!-- Pine tree icon -->
+  <g transform="translate(187, 140)" fill="#4ade80">
+    <polygon points="0,-40 -18,-5 -12,-5 -25,25 -8,25 -8,38 8,38 8,25 25,25 12,-5 18,-5"/>
+  </g>
+
+  <!-- App title -->
+  <text x="187" y="210" text-anchor="middle" fill="#fefae0" font-family="system-ui, sans-serif" font-size="26" font-weight="700">RV Camping</text>
+  <text x="187" y="238" text-anchor="middle" fill="#a7c4b5" font-family="system-ui, sans-serif" font-size="15" font-weight="400">Insurance</text>
+
+  <!-- Login card -->
+  <rect x="28" y="290" width="319" height="340" rx="20" fill="#fefae0" filter="url(#cardShadow)"/>
+
+  <!-- Welcome text -->
+  <text x="187" y="332" text-anchor="middle" fill="#1a3a2a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Welcome Back</text>
+  <text x="187" y="355" text-anchor="middle" fill="#6b7c74" font-family="system-ui, sans-serif" font-size="13">Sign in to get your RV insured</text>
+
+  <!-- Email field -->
+  <text x="52" y="395" fill="#2d6a4f" font-family="system-ui, sans-serif" font-size="12" font-weight="600">EMAIL</text>
+  <rect x="44" y="403" width="287" height="48" rx="12" fill="#fff" stroke="#d4ddd8" stroke-width="1.5"/>
+  <text x="68" y="432" fill="#a0aaa5" font-family="system-ui, sans-serif" font-size="15">camper@email.com</text>
+  <!-- Email icon -->
+  <rect x="56" y="420" width="16" height="12" rx="2" fill="none" stroke="#a0aaa5" stroke-width="1.2"/>
+  <polyline points="56,421 64,428 72,421" fill="none" stroke="#a0aaa5" stroke-width="1.2"/>
+
+  <!-- Password field -->
+  <text x="52" y="475" fill="#2d6a4f" font-family="system-ui, sans-serif" font-size="12" font-weight="600">PASSWORD</text>
+  <rect x="44" y="483" width="287" height="48" rx="12" fill="#fff" stroke="#d4ddd8" stroke-width="1.5"/>
+  <text x="68" y="513" fill="#a0aaa5" font-family="system-ui, sans-serif" font-size="15">••••••••</text>
+  <!-- Lock icon -->
+  <rect x="57" y="503" width="12" height="10" rx="2" fill="none" stroke="#a0aaa5" stroke-width="1.2"/>
+  <path d="M59,503 L59,498 A4,4 0 0,1 67,498 L67,503" fill="none" stroke="#a0aaa5" stroke-width="1.2"/>
+
+  <!-- Sign In button -->
+  <rect x="44" y="556" width="287" height="52" rx="14" fill="#e76f51"/>
+  <text x="187" y="588" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SIGN IN</text>
+
+  <!-- Offline indicator -->
+  <rect x="107" y="680" width="161" height="36" rx="18" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="132" cy="698" r="5" fill="#4ade80"/>
+  <text x="190" y="703" text-anchor="middle" fill="#a7c4b5" font-family="system-ui, sans-serif" font-size="12">Works Offline</text>
+
+  <!-- Home indicator -->
+  <rect x="140" y="786" width="96" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
+</svg>
