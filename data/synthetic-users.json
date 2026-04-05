@@ -1,0 +1,508 @@
+{
+  "generated": "2026-04-05",
+  "description": "50 synthetic users for RV Camping Insurance demo. Password for all: Abc1234$$ (8 chars, alphanumeric + 2 special). Password hash is SHA-256 of 'Abc1234$$'.",
+  "password_plaintext_demo_only": "Abc1234$$",
+  "password_hash": "b8d4fe4c",
+  "users": [
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000001",
+      "email": "ramanac+1@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10001",
+      "vin": "1HGBH41JXMN109001",
+      "mileage": 12500,
+      "deductible": 100,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000002",
+      "email": "ramanac+2@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10002",
+      "vin": "2T1BURHE0FC109002",
+      "mileage": 34200,
+      "deductible": 150,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000003",
+      "email": "ramanac+3@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10003",
+      "vin": "",
+      "mileage": 67800,
+      "deductible": 250,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000004",
+      "email": "ramanac+4@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10004",
+      "vin": "3VWDX7AJ5DM109004",
+      "mileage": 8900,
+      "deductible": 50,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000005",
+      "email": "ramanac+5@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10005",
+      "vin": "5YJSA1DN5CF109005",
+      "mileage": 102300,
+      "deductible": 500,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000006",
+      "email": "ramanac+6@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10006",
+      "vin": "",
+      "mileage": 45000,
+      "deductible": 200,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000007",
+      "email": "ramanac+7@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10007",
+      "vin": "1FTFW1ET8DK109007",
+      "mileage": 23100,
+      "deductible": 75,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000008",
+      "email": "ramanac+8@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10008",
+      "vin": "WBANE53547C109008",
+      "mileage": 56700,
+      "deductible": 300,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000009",
+      "email": "ramanac+9@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10009",
+      "vin": "",
+      "mileage": 15600,
+      "deductible": 100,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000010",
+      "email": "ramanac+10@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10010",
+      "vin": "JH4KA8260MC109010",
+      "mileage": 88400,
+      "deductible": 400,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000011",
+      "email": "ramanac+11@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10011",
+      "vin": "1G1YY22G965109011",
+      "mileage": 31200,
+      "deductible": 150,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000012",
+      "email": "ramanac+12@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10012",
+      "vin": "",
+      "mileage": 72100,
+      "deductible": 350,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000013",
+      "email": "ramanac+13@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10013",
+      "vin": "4T1BF1FK5CU109013",
+      "mileage": 5400,
+      "deductible": 20,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000014",
+      "email": "ramanac+14@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10014",
+      "vin": "5FNRL5H69CB109014",
+      "mileage": 41800,
+      "deductible": 200,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000015",
+      "email": "ramanac+15@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10015",
+      "vin": "",
+      "mileage": 93600,
+      "deductible": 450,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000016",
+      "email": "ramanac+16@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10016",
+      "vin": "1N4AA5AP1DC109016",
+      "mileage": 19800,
+      "deductible": 100,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000017",
+      "email": "ramanac+17@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10017",
+      "vin": "2HGFG3B59DH109017",
+      "mileage": 58300,
+      "deductible": 275,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000018",
+      "email": "ramanac+18@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10018",
+      "vin": "",
+      "mileage": 110500,
+      "deductible": 500,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000019",
+      "email": "ramanac+19@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10019",
+      "vin": "3C4PDCBG8ET109019",
+      "mileage": 27600,
+      "deductible": 125,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000020",
+      "email": "ramanac+20@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10020",
+      "vin": "WAUEFAFL0CA109020",
+      "mileage": 63900,
+      "deductible": 300,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000021",
+      "email": "ramanac+21@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10021",
+      "vin": "1GCGG25K071109021",
+      "mileage": 7200,
+      "deductible": 40,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000022",
+      "email": "ramanac+22@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10022",
+      "vin": "",
+      "mileage": 49200,
+      "deductible": 225,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000023",
+      "email": "ramanac+23@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10023",
+      "vin": "5TDBK3EH8BS109023",
+      "mileage": 81700,
+      "deductible": 375,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000024",
+      "email": "ramanac+24@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10024",
+      "vin": "1FMCU0GX7DU109024",
+      "mileage": 16300,
+      "deductible": 75,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000025",
+      "email": "ramanac+25@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10025",
+      "vin": "",
+      "mileage": 37500,
+      "deductible": 175,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000026",
+      "email": "ramanac+26@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10026",
+      "vin": "KNDJN2A24E7109026",
+      "mileage": 95100,
+      "deductible": 475,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000027",
+      "email": "ramanac+27@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10027",
+      "vin": "2G1WF5E33D1109027",
+      "mileage": 22400,
+      "deductible": 100,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000028",
+      "email": "ramanac+28@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10028",
+      "vin": "",
+      "mileage": 54800,
+      "deductible": 250,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000029",
+      "email": "ramanac+29@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10029",
+      "vin": "1J4FA24197L109029",
+      "mileage": 11100,
+      "deductible": 60,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000030",
+      "email": "ramanac+30@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10030",
+      "vin": "WVWAH7AJ8DW109030",
+      "mileage": 76300,
+      "deductible": 350,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000031",
+      "email": "ramanac+31@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10031",
+      "vin": "4T1BK1EB5DU109031",
+      "mileage": 29800,
+      "deductible": 125,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000032",
+      "email": "ramanac+32@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10032",
+      "vin": "",
+      "mileage": 43600,
+      "deductible": 200,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000033",
+      "email": "ramanac+33@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10033",
+      "vin": "1GNEK13ZX3R109033",
+      "mileage": 118200,
+      "deductible": 500,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000034",
+      "email": "ramanac+34@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10034",
+      "vin": "5NPEB4AC9BH109034",
+      "mileage": 3200,
+      "deductible": 20,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000035",
+      "email": "ramanac+35@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10035",
+      "vin": "",
+      "mileage": 61400,
+      "deductible": 275,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000036",
+      "email": "ramanac+36@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10036",
+      "vin": "3FA6P0H77DR109036",
+      "mileage": 20700,
+      "deductible": 100,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000037",
+      "email": "ramanac+37@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10037",
+      "vin": "JN1TANT31U0109037",
+      "mileage": 85900,
+      "deductible": 400,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000038",
+      "email": "ramanac+38@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10038",
+      "vin": "",
+      "mileage": 39100,
+      "deductible": 175,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000039",
+      "email": "ramanac+39@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10039",
+      "vin": "1C4RJFBG5EC109039",
+      "mileage": 52600,
+      "deductible": 250,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000040",
+      "email": "ramanac+40@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10040",
+      "vin": "2GNALDEK9C6109040",
+      "mileage": 14700,
+      "deductible": 75,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000041",
+      "email": "ramanac+41@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10041",
+      "vin": "",
+      "mileage": 70200,
+      "deductible": 325,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000042",
+      "email": "ramanac+42@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10042",
+      "vin": "WBAPH5C55BA109042",
+      "mileage": 26300,
+      "deductible": 125,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000043",
+      "email": "ramanac+43@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10043",
+      "vin": "1FADP3F29EL109043",
+      "mileage": 97800,
+      "deductible": 450,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000044",
+      "email": "ramanac+44@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10044",
+      "vin": "",
+      "mileage": 33400,
+      "deductible": 150,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000045",
+      "email": "ramanac+45@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10045",
+      "vin": "1GCHK23644F109045",
+      "mileage": 47500,
+      "deductible": 225,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000046",
+      "email": "ramanac+46@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10046",
+      "vin": "5UXWX7C57BL109046",
+      "mileage": 9600,
+      "deductible": 50,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000047",
+      "email": "ramanac+47@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10047",
+      "vin": "",
+      "mileage": 84100,
+      "deductible": 375,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000048",
+      "email": "ramanac+48@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10048",
+      "vin": "2C3CDXCT1CH109048",
+      "mileage": 58900,
+      "deductible": 275,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000049",
+      "email": "ramanac+49@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10049",
+      "vin": "1GNKVGED0BJ109049",
+      "mileage": 21900,
+      "deductible": 100,
+      "quote_date": "2026-04-05"
+    },
+    {
+      "uuid": "a3f8b2c1-7d4e-4f9a-b001-100000000050",
+      "email": "ramanac+50@gmail.com",
+      "password_hash": "b8d4fe4c",
+      "vehicle_number": "RV-10050",
+      "vin": "",
+      "mileage": 105700,
+      "deductible": 500,
+      "quote_date": "2026-04-05"
+    }
+  ]
+}
