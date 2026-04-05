@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a3a2a"/>
-      <stop offset="100%" stop-color="#2d6a4f"/>
+      <stop offset="0%" stop-color="#0f1b2d"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
     </linearGradient>
     <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
       <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.15"/>
@@ -12,7 +12,6 @@
   <!-- Background -->
   <rect width="375" height="812" fill="url(#bgGrad)"/>
 
-  <!-- Topo pattern -->
   <g opacity="0.06" stroke="#fff" stroke-width="1" fill="none">
     <ellipse cx="280" cy="600" rx="130" ry="55"/>
     <ellipse cx="280" cy="620" rx="110" ry="45"/>
@@ -25,53 +24,47 @@
 
   <!-- Header bar -->
   <rect x="0" y="44" width="375" height="56" fill="rgba(0,0,0,0.1)"/>
-  <!-- Back arrow -->
-  <polyline points="24,72 14,72" fill="none" stroke="#fefae0" stroke-width="2" stroke-linecap="round"/>
-  <polyline points="19,66 13,72 19,78" fill="none" stroke="#fefae0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="40" y="77" fill="#fefae0" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Vehicle Details</text>
+  <polyline points="24,72 14,72" fill="none" stroke="#e0eaff" stroke-width="2" stroke-linecap="round"/>
+  <polyline points="19,66 13,72 19,78" fill="none" stroke="#e0eaff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="77" fill="#e0eaff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Vehicle Details</text>
 
-  <!-- Progress bar background -->
+  <!-- Progress bar (25%) -->
   <rect x="28" y="118" width="319" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
-  <!-- Progress bar fill (25%) -->
-  <rect x="28" y="118" width="80" height="6" rx="3" fill="#e76f51"/>
+  <rect x="28" y="118" width="80" height="6" rx="3" fill="#2563eb"/>
 
-  <!-- Step indicator -->
-  <text x="187" y="152" text-anchor="middle" fill="#a7c4b5" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Step 1 of 4</text>
+  <text x="187" y="152" text-anchor="middle" fill="#8babc7" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Step 1 of 4</text>
 
   <!-- Main card -->
-  <rect x="28" y="180" width="319" height="380" rx="20" fill="#fefae0" filter="url(#cardShadow)"/>
+  <rect x="28" y="180" width="319" height="380" rx="20" fill="#f0f4ff" filter="url(#cardShadow)"/>
 
   <!-- RV icon -->
-  <g transform="translate(187, 230)" fill="none" stroke="#2d6a4f" stroke-width="2">
+  <g transform="translate(187, 230)" fill="none" stroke="#1e3a5f" stroke-width="2">
     <rect x="-30" y="-15" width="60" height="30" rx="6"/>
     <rect x="-38" y="-5" width="12" height="20" rx="3"/>
-    <circle cx="-16" cy="18" r="6" fill="#2d6a4f"/>
-    <circle cx="16" cy="18" r="6" fill="#2d6a4f"/>
+    <circle cx="-16" cy="18" r="6" fill="#1e3a5f"/>
+    <circle cx="16" cy="18" r="6" fill="#1e3a5f"/>
     <line x1="-20" y1="-5" x2="20" y2="-5"/>
   </g>
 
   <!-- Question -->
-  <text x="187" y="280" text-anchor="middle" fill="#1a3a2a" font-family="system-ui, sans-serif" font-size="22" font-weight="700">What's your</text>
-  <text x="187" y="308" text-anchor="middle" fill="#1a3a2a" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Vehicle Number?</text>
+  <text x="187" y="280" text-anchor="middle" fill="#0f1b2d" font-family="system-ui, sans-serif" font-size="22" font-weight="700">What's your</text>
+  <text x="187" y="308" text-anchor="middle" fill="#0f1b2d" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Vehicle Number?</text>
 
-  <text x="187" y="338" text-anchor="middle" fill="#6b7c74" font-family="system-ui, sans-serif" font-size="13">Enter your RV registration or plate number</text>
+  <text x="187" y="338" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">Enter your RV registration or plate number</text>
 
   <!-- Input field -->
-  <rect x="52" y="362" width="271" height="56" rx="14" fill="#fff" stroke="#2d6a4f" stroke-width="2"/>
-  <text x="78" y="396" fill="#1a3a2a" font-family="system-ui, sans-serif" font-size="18" font-weight="500">RV-20241</text>
-  <!-- Cursor blink -->
-  <rect x="153" y="376" width="2" height="24" fill="#e76f51" opacity="0.8"/>
+  <rect x="52" y="362" width="271" height="56" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="78" y="396" fill="#0f1b2d" font-family="system-ui, sans-serif" font-size="18" font-weight="500">RV-20241</text>
+  <rect x="153" y="376" width="2" height="24" fill="#2563eb" opacity="0.8"/>
 
   <!-- Helper text -->
-  <text x="187" y="445" text-anchor="middle" fill="#8a9590" font-family="system-ui, sans-serif" font-size="12">e.g. RV-20241, ABC-1234</text>
+  <text x="187" y="445" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">e.g. RV-20241, ABC-1234</text>
 
   <!-- Next button -->
-  <rect x="28" y="600" width="319" height="56" rx="16" fill="#e76f51"/>
+  <rect x="28" y="600" width="319" height="56" rx="16" fill="#2563eb"/>
   <text x="187" y="634" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">NEXT</text>
-  <!-- Arrow -->
   <polyline points="240,628 250,628" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
   <polyline points="246,622 252,628 246,634" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Home indicator -->
   <rect x="140" y="786" width="96" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
 </svg>

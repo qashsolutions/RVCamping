@@ -1,17 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a3a2a"/>
-      <stop offset="100%" stop-color="#2d6a4f"/>
+      <stop offset="0%" stop-color="#0f1b2d"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
     </linearGradient>
     <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
       <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.15"/>
     </filter>
-    <linearGradient id="sliderTrack" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#e76f51"/>
-      <stop offset="30%" stop-color="#e76f51"/>
-      <stop offset="30%" stop-color="#d4ddd8"/>
-    </linearGradient>
   </defs>
 
   <!-- Background -->
@@ -28,53 +23,50 @@
 
   <!-- Header bar -->
   <rect x="0" y="44" width="375" height="56" fill="rgba(0,0,0,0.1)"/>
-  <polyline points="24,72 14,72" fill="none" stroke="#fefae0" stroke-width="2" stroke-linecap="round"/>
-  <polyline points="19,66 13,72 19,78" fill="none" stroke="#fefae0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="40" y="77" fill="#fefae0" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Vehicle Details</text>
+  <polyline points="24,72 14,72" fill="none" stroke="#e0eaff" stroke-width="2" stroke-linecap="round"/>
+  <polyline points="19,66 13,72 19,78" fill="none" stroke="#e0eaff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="77" fill="#e0eaff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Vehicle Details</text>
 
   <!-- Progress bar (100%) -->
   <rect x="28" y="118" width="319" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
-  <rect x="28" y="118" width="319" height="6" rx="3" fill="#e76f51"/>
+  <rect x="28" y="118" width="319" height="6" rx="3" fill="#2563eb"/>
 
-  <text x="187" y="152" text-anchor="middle" fill="#a7c4b5" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Step 4 of 4</text>
+  <text x="187" y="152" text-anchor="middle" fill="#8babc7" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Step 4 of 4</text>
 
   <!-- Main card -->
-  <rect x="28" y="180" width="319" height="440" rx="20" fill="#fefae0" filter="url(#cardShadow)"/>
+  <rect x="28" y="180" width="319" height="440" rx="20" fill="#f0f4ff" filter="url(#cardShadow)"/>
 
   <!-- Shield icon -->
   <g transform="translate(187, 225)">
-    <path d="M0,-22 L18,-14 L18,4 C18,16 0,26 0,26 C0,26 -18,16 -18,4 L-18,-14 Z" fill="none" stroke="#2d6a4f" stroke-width="2.5"/>
-    <text x="0" y="6" text-anchor="middle" fill="#2d6a4f" font-family="system-ui, sans-serif" font-size="16" font-weight="700">$</text>
+    <path d="M0,-22 L18,-14 L18,4 C18,16 0,26 0,26 C0,26 -18,16 -18,4 L-18,-14 Z" fill="none" stroke="#1e3a5f" stroke-width="2.5"/>
+    <text x="0" y="6" text-anchor="middle" fill="#1e3a5f" font-family="system-ui, sans-serif" font-size="16" font-weight="700">$</text>
   </g>
 
   <!-- Question -->
-  <text x="187" y="278" text-anchor="middle" fill="#1a3a2a" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Choose Your</text>
-  <text x="187" y="306" text-anchor="middle" fill="#1a3a2a" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Deductible</text>
+  <text x="187" y="278" text-anchor="middle" fill="#0f1b2d" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Choose Your</text>
+  <text x="187" y="306" text-anchor="middle" fill="#0f1b2d" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Deductible</text>
 
-  <text x="187" y="336" text-anchor="middle" fill="#6b7c74" font-family="system-ui, sans-serif" font-size="13">Higher deductible = lower monthly premium</text>
+  <text x="187" y="336" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">Higher deductible = lower monthly premium</text>
 
   <!-- Current value display -->
-  <rect x="127" y="360" width="121" height="52" rx="14" fill="#2d6a4f"/>
+  <rect x="127" y="360" width="121" height="52" rx="14" fill="#1e3a5f"/>
   <text x="187" y="394" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="26" font-weight="700">$150</text>
 
   <!-- Slider -->
-  <!-- Track -->
-  <rect x="52" y="440" width="271" height="8" rx="4" fill="#d4ddd8"/>
-  <!-- Filled portion -->
-  <rect x="52" y="440" width="82" height="8" rx="4" fill="#e76f51"/>
+  <rect x="52" y="440" width="271" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="440" width="82" height="8" rx="4" fill="#2563eb"/>
   <!-- Thumb -->
-  <circle cx="134" cy="444" r="16" fill="#e76f51" stroke="#fff" stroke-width="3"/>
-  <!-- Thumb inner -->
+  <circle cx="134" cy="444" r="16" fill="#2563eb" stroke="#fff" stroke-width="3"/>
   <line x1="130" y1="440" x2="130" y2="448" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
   <line x1="134" y1="440" x2="134" y2="448" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
   <line x1="138" y1="440" x2="138" y2="448" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
 
   <!-- Min/Max labels -->
-  <text x="52" y="480" fill="#8a9590" font-family="system-ui, sans-serif" font-size="13" font-weight="600">$20</text>
-  <text x="323" y="480" text-anchor="end" fill="#8a9590" font-family="system-ui, sans-serif" font-size="13" font-weight="600">$500</text>
+  <text x="52" y="480" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">$20</text>
+  <text x="323" y="480" text-anchor="end" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">$500</text>
 
   <!-- Tick marks -->
-  <g fill="#d4ddd8">
+  <g fill="#cbd5e1">
     <rect x="52" y="454" width="1" height="8"/>
     <rect x="120" y="454" width="1" height="8"/>
     <rect x="187" y="454" width="1" height="8"/>
@@ -83,16 +75,16 @@
   </g>
 
   <!-- Premium estimate -->
-  <rect x="52" y="510" width="271" height="65" rx="12" fill="#e8f5e9"/>
-  <text x="187" y="535" text-anchor="middle" fill="#6b7c74" font-family="system-ui, sans-serif" font-size="12">Estimated monthly premium</text>
-  <text x="187" y="562" text-anchor="middle" fill="#2d6a4f" font-family="system-ui, sans-serif" font-size="22" font-weight="700">~$127/mo</text>
+  <rect x="52" y="510" width="271" height="65" rx="12" fill="#dbeafe"/>
+  <text x="187" y="535" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">Estimated monthly premium</text>
+  <text x="187" y="562" text-anchor="middle" fill="#1e3a5f" font-family="system-ui, sans-serif" font-size="22" font-weight="700">~$127/mo</text>
 
   <!-- Back button -->
-  <rect x="28" y="660" width="152" height="56" rx="16" fill="rgba(255,255,255,0.12)" stroke="#fefae0" stroke-width="1.5"/>
-  <text x="104" y="694" text-anchor="middle" fill="#fefae0" font-family="system-ui, sans-serif" font-size="16" font-weight="600">BACK</text>
+  <rect x="28" y="660" width="152" height="56" rx="16" fill="rgba(255,255,255,0.12)" stroke="#e0eaff" stroke-width="1.5"/>
+  <text x="104" y="694" text-anchor="middle" fill="#e0eaff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">BACK</text>
 
   <!-- Get Quote button -->
-  <rect x="195" y="660" width="152" height="56" rx="16" fill="#e76f51"/>
+  <rect x="195" y="660" width="152" height="56" rx="16" fill="#2563eb"/>
   <text x="271" y="690" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="14" font-weight="700">GET MY</text>
   <text x="271" y="707" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="14" font-weight="700">QUOTE</text>
 
