@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rv-camping-v1'
+const CACHE_NAME = 'rv-camping-v2'
 const PRECACHE_URLS = [
   '/RVCamping/',
   '/RVCamping/index.html',
